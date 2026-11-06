@@ -1,6 +1,6 @@
 ---
 name: realistic-consistent-character-videos
-description: Produce a fast-paced photorealistic ~30-second video of one or two real people from their reference photos, end to end in the VideoExpress web app with a browser - detailed character descriptions and voice locks, Consistent Character anchors, LTX 2.5 multi-shot image-to-video clips with lip-synced dialogue in a chosen English accent, dead-air trimming and export. Use when the user attaches photos of real people and asks for a consistent-character video, a video "starring" themselves or a colleague, a realistic talking scene with their face, or a VideoExpress consistent character video.
+description: Produce a fast-paced photorealistic ~30-second video of one or two real people from their reference photos, end to end in the VideoExpress web app with a browser - detailed character descriptions and voice locks, Consistent Character anchors, multi-shot image-to-video clips with lip-synced dialogue in a chosen English accent, dead-air trimming and export. Use when the user attaches photos of real people and asks for a consistent-character video, a video "starring" themselves or a colleague, a realistic talking scene with their face, or a VideoExpress consistent character video.
 ---
 
 # Realistic Consistent Character Videos in VideoExpress
@@ -15,7 +15,7 @@ The full recipe is `../../PLAYBOOK.md` at the repository root (public URL: https
 5. **Realistic only.** Create Video From Prompt → **Vertical 9:16** (default) → Image Type **Photorealistic (Cinematic)**, **Use Creative mode ALWAYS ON** (anchors, start images, retries), **Automatically enhance my image prompt OFF**, Lipsync HD and Narration OFF, **public gallery OFF** on every generation.
 6. **Identity.** Write a very detailed **Character Description** per person (90–140 words: age/build, face shape, cheeks, jaw, chin, eyes, brows, nose, lips, skin, ears/facial hair, hair, accessories, plus a garment-by-garment Wardrobe Lock) and paste it verbatim into every image prompt; a Short Tag goes in video prompts. **Use Consistent Character** ON (the user clicks **I Agree** on the one-time Disclaimer). Make one chest-up anchor per character from only their photo in **Reference Photo**, select the closest carousel image (✓) and click **+ Consistent Character**. Then **Reference Photo** = Character 1's anchor, **Reference Photo 2** = Character 2's anchor.
 7. **Voice Lock.** One voice line plus the normalized accent phrase per character, word for word identical in every video prompt. English only.
-8. **LTX 2.5 multi-shot.** 30 s = 4 clips × 8 s, 2–3 shots per clip joined by "A hard cut transitions to…". Single-shot = 5 s clips, no cuts. Advanced Mode → **Automatically enhance my video prompt OFF** (it is ON by default). Every prompt starts with `C## —`.
+8. **Multi-shot.** 30 s = 4 clips × 8 s, 2–3 shots per clip joined by "A hard cut transitions to…". Single-shot = 5 s clips, no cuts. Advanced Mode → **Automatically enhance my video prompt OFF** (it is ON by default). Every prompt starts with `C## —`.
 9. **5 in parallel.** Never more than 5 videos rendering; work in waves.
 10. **Dead-air trim** at each clip's head and tail only, never inside a clip, then **Auto Align Clips**. Export High / FullHD / mp4 and deliver the My Videos link.
 
@@ -24,5 +24,5 @@ A photo upload your browser can't do, the one-time Consistent Character Disclaim
 
 ## References
 - `references/videoexpress-ui-map.md`: every control, label, default and quirk
-- `../../docs/ltx-2.5-prompting.md`: how to write LTX 2.5 multi-shot prompts
+- `../../docs/video-prompting.md`: how to write multi-shot video prompts
 - `../../examples/README.md` and `../../examples/realistic-rooftop-tickets.md`: a worked job with every prompt written out
