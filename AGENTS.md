@@ -6,7 +6,7 @@ This repository is a **prompt package**. It contains no software.
 1. Open `PLAYBOOK.md` (the full instructions) and follow it exactly, starting at **Section 1 (Intake)**.
 2. Do all production work in the VideoExpress web app (https://app.videoexpress.ai/) with your **browser tool**.
 3. The one file action allowed is uploading the user's reference photos into **Media Library → My Media → Images** (Upload file → + Add files → Upload files), then picking them into **Use Consistent Character → Reference Photo / Reference Photo 2**. If your browser tool can't upload files, ask the user to do it in the open tab and reply "done".
-4. Optional reading: `examples/` (worked jobs to imitate), `docs/ltx-2.5-prompting.md` (LTX 2.5 multi-shot prompting) and `skills/realistic-consistent-character-videos/references/` (UI click map).
+4. Optional reading: `examples/` (worked jobs to imitate), `docs/video-prompting.md` (multi-shot video prompting) and `skills/realistic-consistent-character-videos/references/` (UI click map).
 
 ## What NOT to do
 - Do not run any commands, scripts, tests, installs, linters, Python, Node or shell.

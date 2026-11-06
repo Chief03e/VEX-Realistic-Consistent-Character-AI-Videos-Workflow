@@ -1,6 +1,6 @@
 # Realistic Consistent Character Videos: VideoExpress Workflow v1.0
 
-Attach 1–2 real photos of one or two people, write a one-line story and pick an English accent for each person. Your AI agent then builds a **fast-paced, photorealistic ~30-second video** inside [VideoExpress](https://app.videoexpress.ai/) in which **the same people stay recognizable in every shot** and speak their lines with lip sync in a steady accent. It writes the character bible, makes a character anchor portrait, generates every shot with LTX 2.5 multi-shot prompts, **trims the dead air** on the timeline and exports an MP4.
+Attach 1–2 real photos of one or two people, write a one-line story and pick an English accent for each person. Your AI agent then builds a **fast-paced, photorealistic ~30-second video** inside [VideoExpress](https://app.videoexpress.ai/) in which **the same people stay recognizable in every shot** and speak their lines with lip sync in a steady accent. It writes the character bible, makes a character anchor portrait, generates every shot with multi-shot video prompts, **trims the dead air** on the timeline and exports an MP4.
 
 **Community page:** [Realistic Consistent Character Videos](https://community.dualup.com/@videoexpress/workflows/realistic-consistent-character-videos)
 
@@ -34,7 +34,7 @@ There's no audit, no preflight and no approval step. The agent only comes back t
 | Reference photos | Uploaded to **Media Library → My Media → Images**, then picked into **Use Consistent Character → Reference Photo** / **Reference Photo 2** |
 | Anchor portraits | One chest-up portrait per person in the video's wardrobe, saved with **+ Consistent Character**; then **Reference Photo** = Character 1's anchor, **Reference Photo 2** = Character 2's anchor |
 | Look | Image Type **Photorealistic (Cinematic)**, **Use Creative mode always ON** (clearly closer likeness in live tests), image **and** video prompt enhancement **off** (the video one is on by default), public gallery **off** |
-| Shots | Default **4 clips × 8 s**, each with **2–3 cuts inside** (LTX 2.5 multi-shot prompting, ≈ 10 shots), or Single-shot 5 s clips. Every prompt starts with a `C## —` tag |
+| Shots | Default **4 clips × 8 s**, each with **2–3 cuts inside** (multi-shot prompting, ≈ 10 shots), or Single-shot 5 s clips. Every prompt starts with a `C## —` tag |
 | Rendering | At most **5 videos in parallel**; the agent works in waves |
 | Edit | Clips in order on track 1 with **Auto Align Clips** |
 | **Dead-air trim** | Heads and tails only (the cuts inside each clip stay intact), gaps closed |
@@ -48,7 +48,7 @@ There's no audit, no preflight and no approval step. The agent only comes back t
 | [PLAYBOOK.md](PLAYBOOK.md) | **The full instructions** the AI reads from GitHub. Edit this to update every user at once |
 | [CHATGPT_SETUP.md](CHATGPT_SETUP.md) | **ChatGPT:** the Full access setting it needs, how to attach photos, and an optional Project/custom GPT setup |
 | [PROMPT_COMPACT.md](PROMPT_COMPACT.md) | Under 8,000 characters, for custom GPT instructions or Claude Project instructions |
-| [docs/ltx-2.5-prompting.md](docs/ltx-2.5-prompting.md) | How LTX 2.5 multi-shot prompts are written, with more examples |
+| [docs/video-prompting.md](docs/video-prompting.md) | How the multi-shot video prompts are written, with more examples |
 | [examples/](examples/README.md) | Complete worked jobs with every prompt written out, e.g. [Rooftop Tickets](examples/realistic-rooftop-tickets.md) |
 | [skills/realistic-consistent-character-videos/](skills/realistic-consistent-character-videos/SKILL.md) | Agent Skill version with the VideoExpress UI map |
 | [AGENTS.md](AGENTS.md) / [CLAUDE.md](CLAUDE.md) | Auto-loaded by Codex / Claude Code: "run nothing, use the browser" |

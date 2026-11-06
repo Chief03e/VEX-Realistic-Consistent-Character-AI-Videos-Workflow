@@ -9,4 +9,4 @@ This repository is a prompt package for making fast-paced, photorealistic consis
 - Ask the user only for the intake answers (photos, story, accent), a photo upload you can't do, the one-time Consistent Character **I Agree** disclaimer, a sign-in, or a Terms/credits screen they must click themselves.
 - Every image: Image Type **Photorealistic (Cinematic)**, **Use Creative mode ON**, and a 90–140-word **Character Description** per person pasted verbatim. Default format **Vertical 9:16**.
 - Real likenesses: adults only, consent assumed only for legitimate use, public gallery off on every generation.
-- References: `skills/realistic-consistent-character-videos/references/videoexpress-ui-map.md` (exact controls), `docs/ltx-2.5-prompting.md` (LTX 2.5 multi-shot prompts). Worked examples are in `examples/`.
+- References: `skills/realistic-consistent-character-videos/references/videoexpress-ui-map.md` (exact controls), `docs/video-prompting.md` (multi-shot video prompts). Worked examples are in `examples/`.

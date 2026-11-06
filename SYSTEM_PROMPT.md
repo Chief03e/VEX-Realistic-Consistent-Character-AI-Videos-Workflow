@@ -36,7 +36,7 @@ https://raw.githubusercontent.com/ai-playbooks/realistic-consistent-character-vi
 - Use only the browser. Do not use a file reader, terminal, Python, code or any local process. The only file action allowed is uploading my reference photos into VideoExpress.
 
 STEP 2: FOLLOW THE PLAYBOOK
-You already have my photos, story and accent, so start at its Section 2 and go: character bible, upload the photos, character anchors, start images, LTX 2.5 multi-shot video prompts, trim the dead air and export, without stopping. No audits, no checks, no approval questions. Come back to me only if I need to upload the photos myself, sign in, accept VideoExpress's one-time Terms screen, top up credits, or switch on Full access.
+You already have my photos, story and accent, so start at its Section 2 and go: character bible, upload the photos, character anchors, start images, multi-shot video prompts, trim the dead air and export, without stopping. No audits, no checks, no approval questions. Come back to me only if I need to upload the photos myself, sign in, accept VideoExpress's one-time Terms screen, top up credits, or switch on Full access.
 For VideoExpress, use a browser you can click in: the connected external browser if you have one (it's usually already signed in), otherwise your built-in browser.
 If a browser or process error appears ("process launcher failed", "browser-control session exited", "process security error"), show me the NOTE from Step 0 again, wait for my 'done', then start a new browser session and continue from the next unfinished step. Finished clips are safe in My AI Videos.
 
