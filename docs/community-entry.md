@@ -3,12 +3,12 @@
 **Slug:** `realistic-consistent-character-videos`
 **Creator:** @videoexpress
 **Version:** 1.0.0 · 2026-11-06
-**Tools:** VideoExpress (Create Video From Prompt, Consistent Character, LTX 2.5) · ChatGPT (agent/browser mode) · Claude (Claude in Chrome / desktop app built-in browser)
-**Tags:** consistent character, real people, reference photo, photorealistic, realistic, AI video, lip sync, accent, dialogue, multi-shot, LTX 2.5, 9:16, 16:9, TikTok, Instagram Reels, YouTube Shorts, browser automation
+**Tools:** VideoExpress (Create Video From Prompt, Consistent Character) · ChatGPT (agent/browser mode) · Claude (Claude in Chrome / desktop app built-in browser)
+**Tags:** consistent character, real people, reference photo, photorealistic, realistic, AI video, lip sync, accent, dialogue, multi-shot, 9:16, 16:9, TikTok, Instagram Reels, YouTube Shorts, browser automation
 
 ## Short description
 
-Attach one or two real photos of each person, write a one-line story and pick an English accent for each. Your AI writes a very detailed description of each face, turns the photos into character anchors, generates every shot in VideoExpress with LTX 2.5 multi-shot prompts so each 8-second clip has 2–3 quick cuts, keeps the same faces and voices throughout, trims the dead air and exports a fast-paced, photorealistic ~30-second video. One short paste, one answer. The full playbook loads from GitHub automatically. No audits, no approval stops.
+Attach one or two real photos of each person, write a one-line story and pick an English accent for each. Your AI writes a very detailed description of each face, turns the photos into character anchors, generates every shot in VideoExpress with multi-shot video prompts so each 8-second clip has 2–3 quick cuts, keeps the same faces and voices throughout, trims the dead air and exports a fast-paced, photorealistic ~30-second video. One short paste, one answer. The full playbook loads from GitHub automatically. No audits, no approval stops.
 
 ## What you get
 
@@ -71,7 +71,7 @@ https://raw.githubusercontent.com/ai-playbooks/realistic-consistent-character-vi
 - Use only the browser. Do not use a file reader, terminal, Python, code or any local process. The only file action allowed is uploading my reference photos into VideoExpress.
 
 STEP 2: FOLLOW THE PLAYBOOK
-You already have my photos, story and accent, so start at its Section 2 and go: character bible, upload the photos, character anchors, start images, LTX 2.5 multi-shot video prompts, trim the dead air and export, without stopping. No audits, no checks, no approval questions. Come back to me only if I need to upload the photos myself, sign in, accept VideoExpress's one-time Terms screen, top up credits, or switch on Full access.
+You already have my photos, story and accent, so start at its Section 2 and go: character bible, upload the photos, character anchors, start images, multi-shot video prompts, trim the dead air and export, without stopping. No audits, no checks, no approval questions. Come back to me only if I need to upload the photos myself, sign in, accept VideoExpress's one-time Terms screen, top up credits, or switch on Full access.
 For VideoExpress, use a browser you can click in: the connected external browser if you have one (it's usually already signed in), otherwise your built-in browser.
 If a browser or process error appears ("process launcher failed", "browser-control session exited", "process security error"), show me the NOTE from Step 0 again, wait for my 'done', then start a new browser session and continue from the next unfinished step. Finished clips are safe in My AI Videos.
 
@@ -135,11 +135,11 @@ No accent given → neutral American English, noted on the production card.
 
 - GitHub: https://github.com/ai-playbooks/realistic-consistent-character-videos
 - Full playbook the AI loads: https://github.com/ai-playbooks/realistic-consistent-character-videos/blob/main/PLAYBOOK.md
-- LTX 2.5 prompting guide: `docs/ltx-2.5-prompting.md` in the repo
+- Video prompting guide: `docs/video-prompting.md` in the repo
 - Worked example: `examples/realistic-rooftop-tickets.md` in the repo
 - Troubleshooting: `docs/troubleshooting.md` in the repo
 - Forked from: [Realistic Mini Dramas](https://github.com/ai-playbooks/realistic-mini-dramas)
 
 ## Changelog
 
-**1.0.0** (2026-11-06): first release, forked from Realistic Mini Dramas 1.1.1. Real reference photos for 1–2 characters, anchor portraits plus Consistent Character, Voice Lock with normalized English accents, realistic only (Photorealistic (Cinematic) with Creative mode always on), 90–140-word Character Descriptions verbatim in every image prompt, image and video prompt enhancement off, 4 × 8 s LTX 2.5 multi-shot clips (or Single-shot 5 s), 5-parallel wave rule, `C## —` clip tags, heads-and-tails dead-air trim, consent rule, public gallery off. The upload, disclaimer and anchor stage was tested live end to end on 2026-11-06.
+**1.0.0** (2026-11-06): first release, forked from Realistic Mini Dramas 1.1.1. Real reference photos for 1–2 characters, anchor portraits plus Consistent Character, Voice Lock with normalized English accents, realistic only (Photorealistic (Cinematic) with Creative mode always on), 90–140-word Character Descriptions verbatim in every image prompt, image and video prompt enhancement off, 4 × 8 s multi-shot clips (or Single-shot 5 s), 5-parallel wave rule, `C## —` clip tags, heads-and-tails dead-air trim, consent rule, public gallery off. The upload, disclaimer and anchor stage was tested live end to end on 2026-11-06.
