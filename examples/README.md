@@ -6,7 +6,7 @@ Copy-ready reference productions built exactly to [`PLAYBOOK.md`](../PLAYBOOK.md
 |---|---|---|---|---|---|---|
 | [realistic-rooftop-tickets.md](realistic-rooftop-tickets.md) | MAYA (Australian) · LEO (neutral British) | Vertical 9:16 | ~30 s (trim sum ≈ 29.4 s) | Multi-shot, 2 hard cuts per clip | 4 × 8 s (+ a 5 s Single-shot C01 variant) | Hook: tickets on the table → Leo "busy" → twist: he bought the same pair → payoff: spare pair to the couple at the next table |
 
-**What the pack contains:** Character Descriptions (90–140 words each, face feature by feature plus the Wardrobe Lock), Short Tags, Voice Locks, World Lock, settings table, both anchor-portrait image prompts, and for each clip the start-image prompt (~300–400 words, because the full descriptions are pasted in verbatim), the LTX 2.5 video prompt (one speaker, one line of ≤8 words, Voice Lock verbatim, ending with "no music"), the clip length and a trim target.
+**What the pack contains:** Character Descriptions (90–140 words each, face feature by feature plus the Wardrobe Lock), Short Tags, Voice Locks, World Lock, settings table, both anchor-portrait image prompts, and for each clip the start-image prompt (~300–400 words, because the full descriptions are pasted in verbatim), the video prompt (one speaker, one line of ≤8 words, Voice Lock verbatim, ending with "no music"), the clip length and a trim target.
 
 ## How to use it
 
@@ -18,4 +18,4 @@ Copy-ready reference productions built exactly to [`PLAYBOOK.md`](../PLAYBOOK.md
   4. Put C01 → C04 on track 1, click **Auto Align Clips**, trim heads and tails to the targets, align again, then Save and Export.
 - **Your own people:** the MAYA and LEO descriptions are fictional, written as if read from close, front-facing reference photos. In a real run the Character Description comes from the user's photos: replace the face and hair traits feature by feature, keep the wardrobe, World Lock and structure, or swap the story beats.
 
-Generated clips vary, so trim by what's actually on screen and treat the targets as a guide. Background on the prompt style: [`docs/ltx-2.5-prompting.md`](../docs/ltx-2.5-prompting.md).
+Generated clips vary, so trim by what's actually on screen and treat the targets as a guide. Background on the prompt style: [`docs/video-prompting.md`](../docs/video-prompting.md).
