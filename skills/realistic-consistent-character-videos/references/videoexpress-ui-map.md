@@ -11,7 +11,7 @@ Observed live in the signed-in editor at https://app.videoexpress.ai/ on 2026-10
 **Import Media has NO file upload** (confirmed live 2026-11-06): it only offers Text to Speech, CloneVoice, Artistly and the webcam / voice / screen recorders. Upload photos through the Media Library (below).
 
 ## Create with AI → Create Video From Prompt (the generation dialog)
-Menu entries include: **Create Video From Prompt** (Image to Video · Lipsync HD · Narrate · Consistent Character, "3.5" badge), Text To Video, First Frame Last Frame, Smart Edit, Stylize Character, Image To Video (Old Algorithm), Lipsync Video (Old Algorithm), Outpainting, Change Aspect Ratio, AI Sound Maker. **Always use Create Video From Prompt.** The "3.5" badge is a version label. It is not a model name you need to check. Image-to-video runs on LTX 2.5, which makes picture, voice, lip sync and sound from one prompt and can cut between shots inside one clip.
+Menu entries include: **Create Video From Prompt** (Image to Video · Lipsync HD · Narrate · Consistent Character, "3.5" badge), Text To Video, First Frame Last Frame, Smart Edit, Stylize Character, Image To Video (Old Algorithm), Lipsync Video (Old Algorithm), Outpainting, Change Aspect Ratio, AI Sound Maker. **Always use Create Video From Prompt.** The "3.5" badge is a version label. It is not a model name you need to check. Image-to-video uses a video model that makes picture, voice, lip sync and sound from one prompt and can cut between shots inside one clip.
 
 | Control | Default | Set it to |
 |---|---|---|
@@ -24,7 +24,7 @@ Menu entries include: **Create Video From Prompt** (Image to Video · Lipsync HD
 | **Use Consistent Character** | off | **ON** on every image, with only the people visible in that frame (first tick shows a one-time **Disclaimer**; the user clicks **I Agree**) |
 | → **Reference Photo** / **Reference Photo 2** | empty | anchors: only that character's uploaded photo in **Reference Photo**; clips: **Reference Photo** = Character 1's anchor, **Reference Photo 2** = Character 2's anchor **(confirmed live 2026-11-06)** |
 | → **Use from Library** | – | not needed: pick anchors from **My AI Images** in the slot picker |
-| **Lipsync HD Video** / **Narration Video (Choose my Audio)** | off | OFF (LTX 2.5 makes the voice and lip sync natively) |
+| **Lipsync HD Video** / **Narration Video (Choose my Audio)** | off | OFF (the video model makes the voice and lip sync natively) |
 | **Share this in the public gallery** | **ON** | **uncheck** on every generation (it turns back on when the dialog reopens) |
 | **Advanced Mode** | off | **ON** |
 | → **Automatically enhance my video prompt** | **on** | **untick it, OFF** (the enhancer rewrites prompts into a single take and strips your cuts) **(confirmed live 2026-11-06: ON by default)** |
